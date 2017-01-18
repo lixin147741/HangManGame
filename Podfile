@@ -1,4 +1,3 @@
-
 target 'HangMan'
 pod 'AFNetworking'
 pod 'YYKit'

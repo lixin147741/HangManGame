@@ -1,12 +1,12 @@
 //
-//  ViewController.m
+//  LXMainViewController.m
 //  HangMan
 //
 //  Created by 李鑫 on 17/1/17.
 //  Copyright © 2017年 Kee. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LXMainViewController.h"
 #import <UIKit/UIKit.h>
 #import "HangManKit.h"
 #import "LXWelcomeViewController.h"
@@ -15,7 +15,7 @@
 #import "Macros.h"
 #import "SVProgressHUD.h"
 
-@interface ViewController ()
+@interface LXMainViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *totalWordCountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *completeWordCountLabel;
@@ -36,9 +36,11 @@
 
 @property (nonatomic, assign) BOOL hasSubmit;
 
+@property (nonatomic, assign) NSInteger currentTriedCount;
+
 @end
 
-@implementation ViewController
+@implementation LXMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -71,7 +73,7 @@
         [self gameOver];
     }
     
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"警告" message:@"还有提交您的分数，确定重新开始游戏吗？" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"还有提交您的分数，确定重新开始游戏吗？" preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"重新开始" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         
         [self loginIfNeeded];
@@ -156,6 +158,7 @@
     
     self.wordLabel.text = model.word;
     self.currentWordCount.text = [NSString stringWithFormat:@"当前第%@个", model.totalWordCount];
+    self.currentTriedCount = [model.totalWordCount integerValue];
 
     [self updateCurrentWordWrongGuessStatus:[model.wrongGuessCountOfCurrentWord integerValue]];
     
@@ -183,6 +186,7 @@
         [self getUserScore];
 
     } else if ([model isKindOfClass:[LXStartGameModel class]]) {
+        self.hasSubmit = NO;
         LXStartGameModel *model = noti.object;
         [self startGameWithStartGameModel:model];
     }
@@ -205,6 +209,10 @@
 - (void)getNextWord {
     
     [self refreshKeyBoard];
+    
+    if ([[@(self.currentTriedCount) stringValue] isEqualToString: self.totalWordCountLabel.text]) {
+        [SVProgressHUD showInfoWithStatus:@"恭喜您已经通关该游戏，你可以上传成绩并重新开始游戏"];
+    }
 
     [SVProgressHUD show];
     WEAK_SELF;

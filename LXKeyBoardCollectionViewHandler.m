@@ -77,7 +77,7 @@ NSString *didGuessWordNotification = @"didGuessWordNotification";
     
     UILabel *label = [cell viewWithTag:1];
     label.text = model.key;
-    cell.backgroundColor = model.isSelected ? [UIColor grayColor] : [UIColor greenColor];
+    cell.backgroundColor = model.isSelected ? [UIColor grayColor] : [UIColor lightGrayColor];
     
     return cell;
 }
@@ -89,7 +89,7 @@ NSString *didGuessWordNotification = @"didGuessWordNotification";
     NSArray *arr = [self.keyArray objectAtIndex:indexPath.section];
     NSInteger count = arr.count;
     
-    return CGSizeMake(MAX((LXScreenWidth - 40)/count - 10, 10), 200.0/self.keyArray.count);
+    return CGSizeMake(MAX((LXScreenWidth - 40)/count - 5, 10), 200.0/self.keyArray.count);
 }
 
 
@@ -102,7 +102,7 @@ NSString *didGuessWordNotification = @"didGuessWordNotification";
 //动态设置每列的间距大小
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
     
-    return 10;
+    return 5;
 }
 
 //动态设置某组头视图大小

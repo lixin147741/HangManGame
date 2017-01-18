@@ -30,7 +30,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LXMainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -72,7 +72,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wH-zc-vx2">
                                 <rect key="frame" x="20" y="264" width="335" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -107,10 +107,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wvA-n5-NBe">
-                                <rect key="frame" x="20" y="439" width="335" height="220"/>
-                                <color key="backgroundColor" red="0.58877840910000001" green="0.58877840910000001" blue="0.58877840910000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="20" y="443" width="335" height="216"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="220" id="s7Q-lv-l7i"/>
+                                    <constraint firstAttribute="height" constant="216" id="s7Q-lv-l7i"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D7r-SV-Oir">
                                     <size key="itemSize" width="31" height="24"/>
@@ -161,10 +161,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtd-vs-8Oo">
-                                <rect key="frame" x="110.5" y="294" width="154" height="36"/>
+                                <rect key="frame" x="20" y="294" width="335" height="44"/>
                                 <color key="backgroundColor" red="0.13634634940000001" green="0.70444118820000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="154" id="0zL-Mz-CZx"/>
+                                    <constraint firstAttribute="height" constant="44" id="z2S-BX-c2B"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="提交成绩">
@@ -188,6 +188,7 @@
                             <constraint firstItem="96E-KW-72m" firstAttribute="top" secondItem="55s-Kc-Sg9" secondAttribute="bottom" constant="10" id="3nI-NN-ywL"/>
                             <constraint firstAttribute="trailing" secondItem="IW6-0y-vCi" secondAttribute="trailing" constant="20" id="434-bZ-ccY"/>
                             <constraint firstAttribute="trailing" secondItem="5Wl-FM-6pr" secondAttribute="trailing" constant="20" id="45c-JA-xsx"/>
+                            <constraint firstItem="qtd-vs-8Oo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6fl-31-h2b"/>
                             <constraint firstItem="9wH-zc-vx2" firstAttribute="top" secondItem="hHA-fm-GoV" secondAttribute="bottom" constant="60" id="9Yd-qO-7Do"/>
                             <constraint firstAttribute="trailing" secondItem="wvA-n5-NBe" secondAttribute="trailing" constant="20" id="A1R-NC-e25"/>
                             <constraint firstItem="96E-KW-72m" firstAttribute="leading" secondItem="hHA-fm-GoV" secondAttribute="trailing" constant="12" id="ArX-IH-wYm"/>
@@ -206,6 +207,7 @@
                             <constraint firstItem="wvA-n5-NBe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="UAM-vX-pM3"/>
                             <constraint firstItem="9wH-zc-vx2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="UDY-Ij-TBM"/>
                             <constraint firstAttribute="bottomMargin" secondItem="wvA-n5-NBe" secondAttribute="bottom" constant="8" id="XbI-Oq-kBV"/>
+                            <constraint firstAttribute="trailing" secondItem="qtd-vs-8Oo" secondAttribute="trailing" constant="20" id="Ygz-1E-WDW"/>
                             <constraint firstAttribute="trailing" secondItem="9wH-zc-vx2" secondAttribute="trailing" constant="20" id="aJI-FP-bES"/>
                             <constraint firstItem="IW6-0y-vCi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yEM-cO-nPh" secondAttribute="trailing" constant="10" id="bKH-2o-p3G"/>
                             <constraint firstItem="Jcv-GA-d0P" firstAttribute="baseline" secondItem="55s-Kc-Sg9" secondAttribute="baseline" id="coP-by-rfo"/>

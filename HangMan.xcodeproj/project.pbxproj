@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8240BF7B1E2DEADF00D0D612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7A1E2DEADF00D0D612 /* main.m */; };
 		8240BF7E1E2DEADF00D0D612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */; };
-		8240BF811E2DEADF00D0D612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF801E2DEADF00D0D612 /* ViewController.m */; };
+		8240BF811E2DEADF00D0D612 /* LXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF801E2DEADF00D0D612 /* LXMainViewController.m */; };
 		8240BF841E2DEADF00D0D612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF821E2DEADF00D0D612 /* Main.storyboard */; };
 		8240BF861E2DEADF00D0D612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF851E2DEADF00D0D612 /* Assets.xcassets */; };
 		8240BF891E2DEADF00D0D612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF871E2DEADF00D0D612 /* LaunchScreen.storyboard */; };
@@ -35,8 +35,8 @@
 		8240BF7A1E2DEADF00D0D612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8240BF7C1E2DEADF00D0D612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8240BF7F1E2DEADF00D0D612 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HangMan/ViewController.h; sourceTree = "<group>"; };
-		8240BF801E2DEADF00D0D612 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HangMan/ViewController.m; sourceTree = "<group>"; };
+		8240BF7F1E2DEADF00D0D612 /* LXMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LXMainViewController.h; path = HangMan/LXMainViewController.h; sourceTree = "<group>"; };
+		8240BF801E2DEADF00D0D612 /* LXMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LXMainViewController.m; path = HangMan/LXMainViewController.m; sourceTree = "<group>"; };
 		8240BF831E2DEADF00D0D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8240BF851E2DEADF00D0D612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8240BF881E2DEADF00D0D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -230,8 +230,8 @@
 		8240BFC21E2E1F9E00D0D612 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8240BF7F1E2DEADF00D0D612 /* ViewController.h */,
-				8240BF801E2DEADF00D0D612 /* ViewController.m */,
+				8240BF7F1E2DEADF00D0D612 /* LXMainViewController.h */,
+				8240BF801E2DEADF00D0D612 /* LXMainViewController.m */,
 				8240BF821E2DEADF00D0D612 /* Main.storyboard */,
 				8240BFC51E2E200100D0D612 /* LXWelcomeViewController.h */,
 				8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */,
@@ -402,7 +402,7 @@
 			files = (
 				8240BFE11E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */,
 				8240BF941E2DEE7B00D0D612 /* HangManNetworkIMP.m in Sources */,
-				8240BF811E2DEADF00D0D612 /* ViewController.m in Sources */,
+				8240BF811E2DEADF00D0D612 /* LXMainViewController.m in Sources */,
 				8240BFB31E2E020800D0D612 /* LXStartGameModel.m in Sources */,
 				8240BFBB1E2E12E200D0D612 /* NSError+HangManError.m in Sources */,
 				8240BFB41E2E020800D0D612 /* LXWordModel.m in Sources */,

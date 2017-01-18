@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LXMainViewController.h
 //  HangMan
 //
 //  Created by 李鑫 on 17/1/17.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LXMainViewController : UIViewController
 
 
 @end
