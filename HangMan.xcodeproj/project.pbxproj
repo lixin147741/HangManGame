@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8240BF7B1E2DEADF00D0D612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7A1E2DEADF00D0D612 /* main.m */; };
-		8240BF7E1E2DEADF00D0D612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */; };
-		8240BF811E2DEADF00D0D612 /* LXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF801E2DEADF00D0D612 /* LXMainViewController.m */; };
-		8240BF841E2DEADF00D0D612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF821E2DEADF00D0D612 /* Main.storyboard */; };
 		8240BF861E2DEADF00D0D612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF851E2DEADF00D0D612 /* Assets.xcassets */; };
 		8240BF891E2DEADF00D0D612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF871E2DEADF00D0D612 /* LaunchScreen.storyboard */; };
-		8240BF941E2DEE7B00D0D612 /* HangManNetworkIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF931E2DEE7B00D0D612 /* HangManNetworkIMP.m */; };
-		8240BF9F1E2DF54F00D0D612 /* HangManPersistenceIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF9E1E2DF54F00D0D612 /* HangManPersistenceIMP.m */; };
-		8240BFA21E2DF75F00D0D612 /* HangManKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFA11E2DF75F00D0D612 /* HangManKit.m */; };
-		8240BFB21E2E020800D0D612 /* LXResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFAD1E2E020800D0D612 /* LXResultModel.m */; };
-		8240BFB31E2E020800D0D612 /* LXStartGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFAF1E2E020800D0D612 /* LXStartGameModel.m */; };
-		8240BFB41E2E020800D0D612 /* LXWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFB11E2E020800D0D612 /* LXWordModel.m */; };
-		8240BFBB1E2E12E200D0D612 /* NSError+HangManError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFBA1E2E12E200D0D612 /* NSError+HangManError.m */; };
-		8240BFC11E2E1E5400D0D612 /* LXEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFC01E2E1E5400D0D612 /* LXEnvironment.m */; };
-		8240BFC41E2E1FE200D0D612 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BFC31E2E1FE200D0D612 /* Welcome.storyboard */; };
-		8240BFC71E2E200100D0D612 /* LXWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */; };
 		8240BFDD1E2F4F2D00D0D612 /* Hangman_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240BFDC1E2F4F2D00D0D612 /* Hangman_game.png */; };
-		8240BFE11E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFE01E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m */; };
-		8240BFE51E2F530500D0D612 /* LXKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFE41E2F530500D0D612 /* LXKeyModel.m */; };
+		8240C01B1E2FCCC800D0D612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240C0191E2FCCC800D0D612 /* Main.storyboard */; };
+		8240C01C1E2FCCC800D0D612 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240C01A1E2FCCC800D0D612 /* Welcome.storyboard */; };
+		8240C01D1E2FCDC800D0D612 /* LXEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240C0031E2FCC7400D0D612 /* LXEnvironment.m */; };
+		8240C01E1E2FCDC800D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240C0061E2FCC7400D0D612 /* LXKeyBoardCollectionViewHandler.m */; };
+		8240C01F1E2FCDC800D0D612 /* LXKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240C0091E2FCC7400D0D612 /* LXKeyModel.m */; };
+		8240C0201E2FCDC800D0D612 /* HangManKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240C00C1E2FCC7400D0D612 /* HangManKit.m */; };
+		8240C0211E2FCDC800D0D612 /* HangManNetworkIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240C00F1E2FCC7400D0D612 /* HangManNetworkIMP.m */; };
+		8240C0221E2FCDC800D0D612 /* HangManPersistenceIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240C0121E2FCC7400D0D612 /* HangManPersistenceIMP.m */; };
+		8240C0231E2FCDC800D0D612 /* LXResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFE81E2FCC6900D0D612 /* LXResultModel.m */; };
+		8240C0241E2FCDC800D0D612 /* LXStartGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFEA1E2FCC6900D0D612 /* LXStartGameModel.m */; };
+		8240C0251E2FCDC800D0D612 /* LXWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFEC1E2FCC6900D0D612 /* LXWordModel.m */; };
+		8240C0261E2FCDC800D0D612 /* NSError+HangManError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFF51E2FCC6900D0D612 /* NSError+HangManError.m */; };
+		8240C0271E2FCDC800D0D612 /* LXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFF81E2FCC6900D0D612 /* LXMainViewController.m */; };
+		8240C0281E2FCDC800D0D612 /* LXWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFFA1E2FCC6900D0D612 /* LXWelcomeViewController.m */; };
+		8240C0291E2FCDC800D0D612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */; };
+		8240C02A1E2FCDC800D0D612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7A1E2DEADF00D0D612 /* main.m */; };
 		B93CBBB90F2D6F1A2DA5CFC2 /* libPods-HangMan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2755CBF9A194A62D19F12C9A /* libPods-HangMan.a */; };
 /* End PBXBuildFile section */
 
@@ -35,39 +35,39 @@
 		8240BF7A1E2DEADF00D0D612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8240BF7C1E2DEADF00D0D612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8240BF7F1E2DEADF00D0D612 /* LXMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LXMainViewController.h; path = HangMan/LXMainViewController.h; sourceTree = "<group>"; };
-		8240BF801E2DEADF00D0D612 /* LXMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LXMainViewController.m; path = HangMan/LXMainViewController.m; sourceTree = "<group>"; };
-		8240BF831E2DEADF00D0D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8240BF851E2DEADF00D0D612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8240BF881E2DEADF00D0D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8240BF8A1E2DEAE000D0D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8240BF911E2DED5100D0D612 /* HangManNetworkProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangManNetworkProtocol.h; sourceTree = "<group>"; };
-		8240BF921E2DEE7B00D0D612 /* HangManNetworkIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HangManNetworkIMP.h; path = HangMan/HangManNetworkIMP.h; sourceTree = "<group>"; };
-		8240BF931E2DEE7B00D0D612 /* HangManNetworkIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HangManNetworkIMP.m; path = HangMan/HangManNetworkIMP.m; sourceTree = "<group>"; };
-		8240BF9C1E2DF4D300D0D612 /* HangManPersistenceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManPersistenceProtocol.h; sourceTree = "<group>"; };
-		8240BF9D1E2DF54F00D0D612 /* HangManPersistenceIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManPersistenceIMP.h; sourceTree = "<group>"; };
-		8240BF9E1E2DF54F00D0D612 /* HangManPersistenceIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManPersistenceIMP.m; sourceTree = "<group>"; };
-		8240BFA01E2DF75F00D0D612 /* HangManKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManKit.h; sourceTree = "<group>"; };
-		8240BFA11E2DF75F00D0D612 /* HangManKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManKit.m; sourceTree = "<group>"; };
-		8240BFAC1E2E020800D0D612 /* LXResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXResultModel.h; sourceTree = "<group>"; };
-		8240BFAD1E2E020800D0D612 /* LXResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXResultModel.m; sourceTree = "<group>"; };
-		8240BFAE1E2E020800D0D612 /* LXStartGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXStartGameModel.h; sourceTree = "<group>"; };
-		8240BFAF1E2E020800D0D612 /* LXStartGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXStartGameModel.m; sourceTree = "<group>"; };
-		8240BFB01E2E020800D0D612 /* LXWordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWordModel.h; sourceTree = "<group>"; };
-		8240BFB11E2E020800D0D612 /* LXWordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWordModel.m; sourceTree = "<group>"; };
-		8240BFB91E2E12E200D0D612 /* NSError+HangManError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HangManError.h"; sourceTree = "<group>"; };
-		8240BFBA1E2E12E200D0D612 /* NSError+HangManError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HangManError.m"; sourceTree = "<group>"; };
-		8240BFBC1E2E1AC400D0D612 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		8240BFBF1E2E1E5400D0D612 /* LXEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXEnvironment.h; sourceTree = "<group>"; };
-		8240BFC01E2E1E5400D0D612 /* LXEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXEnvironment.m; sourceTree = "<group>"; };
-		8240BFC31E2E1FE200D0D612 /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
-		8240BFC51E2E200100D0D612 /* LXWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWelcomeViewController.h; sourceTree = "<group>"; };
-		8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWelcomeViewController.m; sourceTree = "<group>"; };
 		8240BFDC1E2F4F2D00D0D612 /* Hangman_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman_game.png; sourceTree = "<group>"; };
-		8240BFDF1E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKeyBoardCollectionViewHandler.h; sourceTree = "<group>"; };
-		8240BFE01E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKeyBoardCollectionViewHandler.m; sourceTree = "<group>"; };
-		8240BFE31E2F530500D0D612 /* LXKeyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKeyModel.h; sourceTree = "<group>"; };
-		8240BFE41E2F530500D0D612 /* LXKeyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKeyModel.m; sourceTree = "<group>"; };
+		8240BFE71E2FCC6900D0D612 /* LXResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXResultModel.h; sourceTree = "<group>"; };
+		8240BFE81E2FCC6900D0D612 /* LXResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXResultModel.m; sourceTree = "<group>"; };
+		8240BFE91E2FCC6900D0D612 /* LXStartGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXStartGameModel.h; sourceTree = "<group>"; };
+		8240BFEA1E2FCC6900D0D612 /* LXStartGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXStartGameModel.m; sourceTree = "<group>"; };
+		8240BFEB1E2FCC6900D0D612 /* LXWordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWordModel.h; sourceTree = "<group>"; };
+		8240BFEC1E2FCC6900D0D612 /* LXWordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWordModel.m; sourceTree = "<group>"; };
+		8240BFEF1E2FCC6900D0D612 /* HangManNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManNetworkProtocol.h; sourceTree = "<group>"; };
+		8240BFF11E2FCC6900D0D612 /* HangManPersistenceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManPersistenceProtocol.h; sourceTree = "<group>"; };
+		8240BFF31E2FCC6900D0D612 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		8240BFF41E2FCC6900D0D612 /* NSError+HangManError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HangManError.h"; sourceTree = "<group>"; };
+		8240BFF51E2FCC6900D0D612 /* NSError+HangManError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HangManError.m"; sourceTree = "<group>"; };
+		8240BFF71E2FCC6900D0D612 /* LXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMainViewController.h; sourceTree = "<group>"; };
+		8240BFF81E2FCC6900D0D612 /* LXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMainViewController.m; sourceTree = "<group>"; };
+		8240BFF91E2FCC6900D0D612 /* LXWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWelcomeViewController.h; sourceTree = "<group>"; };
+		8240BFFA1E2FCC6900D0D612 /* LXWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWelcomeViewController.m; sourceTree = "<group>"; };
+		8240C0021E2FCC7400D0D612 /* LXEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXEnvironment.h; sourceTree = "<group>"; };
+		8240C0031E2FCC7400D0D612 /* LXEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXEnvironment.m; sourceTree = "<group>"; };
+		8240C0051E2FCC7400D0D612 /* LXKeyBoardCollectionViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKeyBoardCollectionViewHandler.h; sourceTree = "<group>"; };
+		8240C0061E2FCC7400D0D612 /* LXKeyBoardCollectionViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKeyBoardCollectionViewHandler.m; sourceTree = "<group>"; };
+		8240C0081E2FCC7400D0D612 /* LXKeyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKeyModel.h; sourceTree = "<group>"; };
+		8240C0091E2FCC7400D0D612 /* LXKeyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKeyModel.m; sourceTree = "<group>"; };
+		8240C00B1E2FCC7400D0D612 /* HangManKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManKit.h; sourceTree = "<group>"; };
+		8240C00C1E2FCC7400D0D612 /* HangManKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManKit.m; sourceTree = "<group>"; };
+		8240C00E1E2FCC7400D0D612 /* HangManNetworkIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManNetworkIMP.h; sourceTree = "<group>"; };
+		8240C00F1E2FCC7400D0D612 /* HangManNetworkIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManNetworkIMP.m; sourceTree = "<group>"; };
+		8240C0111E2FCC7400D0D612 /* HangManPersistenceIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManPersistenceIMP.h; sourceTree = "<group>"; };
+		8240C0121E2FCC7400D0D612 /* HangManPersistenceIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManPersistenceIMP.m; sourceTree = "<group>"; };
+		8240C0191E2FCCC800D0D612 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8240C01A1E2FCCC800D0D612 /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		9E038C83ADE27639149E0795 /* Pods-HangMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangMan/Pods-HangMan.debug.xcconfig"; sourceTree = "<group>"; };
 		CC26AFD3213C3669E0771161 /* Pods-HangMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangMan/Pods-HangMan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,13 +96,13 @@
 		8240BF6D1E2DEADF00D0D612 = {
 			isa = PBXGroup;
 			children = (
-				8240BFDE1E2F511900D0D612 /* Handler */,
-				8240BFC21E2E1F9E00D0D612 /* ViewControllers */,
-				8240BFBE1E2E1E3B00D0D612 /* Environment */,
-				8240BFB81E2E12C500D0D612 /* Util */,
-				8240BF951E2DF0DE00D0D612 /* Model */,
-				8240BF901E2DECE700D0D612 /* Protocol */,
-				8240BF971E2DF40A00D0D612 /* Implement */,
+				8240C0011E2FCC7400D0D612 /* Environment */,
+				8240C0041E2FCC7400D0D612 /* Handler */,
+				8240C00A1E2FCC7400D0D612 /* Implement */,
+				8240BFE61E2FCC6900D0D612 /* Model */,
+				8240BFED1E2FCC6900D0D612 /* Protocol */,
+				8240BFF21E2FCC6900D0D612 /* Utils */,
+				8240BFF61E2FCC6900D0D612 /* ViewControllers */,
 				8240BF781E2DEADF00D0D612 /* HangMan */,
 				8240BFDB1E2F4F2D00D0D612 /* resource */,
 				8240BF771E2DEADF00D0D612 /* Products */,
@@ -140,106 +140,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8240BF901E2DECE700D0D612 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF991E2DF44700D0D612 /* Persistent */,
-				8240BF961E2DF3F400D0D612 /* Network */,
-			);
-			name = Protocol;
-			path = HangMan;
-			sourceTree = "<group>";
-		};
-		8240BF951E2DF0DE00D0D612 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8240BFAC1E2E020800D0D612 /* LXResultModel.h */,
-				8240BFAD1E2E020800D0D612 /* LXResultModel.m */,
-				8240BFAE1E2E020800D0D612 /* LXStartGameModel.h */,
-				8240BFAF1E2E020800D0D612 /* LXStartGameModel.m */,
-				8240BFB01E2E020800D0D612 /* LXWordModel.h */,
-				8240BFB11E2E020800D0D612 /* LXWordModel.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		8240BF961E2DF3F400D0D612 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF911E2DED5100D0D612 /* HangManNetworkProtocol.h */,
-			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		8240BF971E2DF40A00D0D612 /* Implement */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF9A1E2DF45600D0D612 /* Persistent */,
-				8240BF981E2DF43900D0D612 /* Network */,
-				8240BFA01E2DF75F00D0D612 /* HangManKit.h */,
-				8240BFA11E2DF75F00D0D612 /* HangManKit.m */,
-			);
-			name = Implement;
-			sourceTree = "<group>";
-		};
-		8240BF981E2DF43900D0D612 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF921E2DEE7B00D0D612 /* HangManNetworkIMP.h */,
-				8240BF931E2DEE7B00D0D612 /* HangManNetworkIMP.m */,
-			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		8240BF991E2DF44700D0D612 /* Persistent */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF9C1E2DF4D300D0D612 /* HangManPersistenceProtocol.h */,
-			);
-			name = Persistent;
-			sourceTree = "<group>";
-		};
-		8240BF9A1E2DF45600D0D612 /* Persistent */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF9D1E2DF54F00D0D612 /* HangManPersistenceIMP.h */,
-				8240BF9E1E2DF54F00D0D612 /* HangManPersistenceIMP.m */,
-			);
-			name = Persistent;
-			sourceTree = "<group>";
-		};
-		8240BFB81E2E12C500D0D612 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				8240BFB91E2E12E200D0D612 /* NSError+HangManError.h */,
-				8240BFBA1E2E12E200D0D612 /* NSError+HangManError.m */,
-				8240BFBC1E2E1AC400D0D612 /* Macros.h */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		8240BFBE1E2E1E3B00D0D612 /* Environment */ = {
-			isa = PBXGroup;
-			children = (
-				8240BFBF1E2E1E5400D0D612 /* LXEnvironment.h */,
-				8240BFC01E2E1E5400D0D612 /* LXEnvironment.m */,
-			);
-			name = Environment;
-			sourceTree = "<group>";
-		};
-		8240BFC21E2E1F9E00D0D612 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				8240BF7F1E2DEADF00D0D612 /* LXMainViewController.h */,
-				8240BF801E2DEADF00D0D612 /* LXMainViewController.m */,
-				8240BF821E2DEADF00D0D612 /* Main.storyboard */,
-				8240BFC51E2E200100D0D612 /* LXWelcomeViewController.h */,
-				8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */,
-				8240BFC31E2E1FE200D0D612 /* Welcome.storyboard */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
 		8240BFDB1E2F4F2D00D0D612 /* resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,23 +148,129 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
-		8240BFDE1E2F511900D0D612 /* Handler */ = {
+		8240BFE61E2FCC6900D0D612 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8240BFE21E2F52F400D0D612 /* Model */,
-				8240BFDF1E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.h */,
-				8240BFE01E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m */,
-			);
-			name = Handler;
-			sourceTree = "<group>";
-		};
-		8240BFE21E2F52F400D0D612 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8240BFE31E2F530500D0D612 /* LXKeyModel.h */,
-				8240BFE41E2F530500D0D612 /* LXKeyModel.m */,
+				8240BFE71E2FCC6900D0D612 /* LXResultModel.h */,
+				8240BFE81E2FCC6900D0D612 /* LXResultModel.m */,
+				8240BFE91E2FCC6900D0D612 /* LXStartGameModel.h */,
+				8240BFEA1E2FCC6900D0D612 /* LXStartGameModel.m */,
+				8240BFEB1E2FCC6900D0D612 /* LXWordModel.h */,
+				8240BFEC1E2FCC6900D0D612 /* LXWordModel.m */,
 			);
 			name = Model;
+			path = HangMan/Model;
+			sourceTree = "<group>";
+		};
+		8240BFED1E2FCC6900D0D612 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFEE1E2FCC6900D0D612 /* Network */,
+				8240BFF01E2FCC6900D0D612 /* Persistence */,
+			);
+			name = Protocol;
+			path = HangMan/Protocol;
+			sourceTree = "<group>";
+		};
+		8240BFEE1E2FCC6900D0D612 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFEF1E2FCC6900D0D612 /* HangManNetworkProtocol.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8240BFF01E2FCC6900D0D612 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFF11E2FCC6900D0D612 /* HangManPersistenceProtocol.h */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		8240BFF21E2FCC6900D0D612 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFF31E2FCC6900D0D612 /* Macros.h */,
+				8240BFF41E2FCC6900D0D612 /* NSError+HangManError.h */,
+				8240BFF51E2FCC6900D0D612 /* NSError+HangManError.m */,
+			);
+			name = Utils;
+			path = HangMan/Utils;
+			sourceTree = "<group>";
+		};
+		8240BFF61E2FCC6900D0D612 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8240C0191E2FCCC800D0D612 /* Main.storyboard */,
+				8240C01A1E2FCCC800D0D612 /* Welcome.storyboard */,
+				8240BFF71E2FCC6900D0D612 /* LXMainViewController.h */,
+				8240BFF81E2FCC6900D0D612 /* LXMainViewController.m */,
+				8240BFF91E2FCC6900D0D612 /* LXWelcomeViewController.h */,
+				8240BFFA1E2FCC6900D0D612 /* LXWelcomeViewController.m */,
+			);
+			name = ViewControllers;
+			path = HangMan/ViewControllers;
+			sourceTree = "<group>";
+		};
+		8240C0011E2FCC7400D0D612 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				8240C0021E2FCC7400D0D612 /* LXEnvironment.h */,
+				8240C0031E2FCC7400D0D612 /* LXEnvironment.m */,
+			);
+			name = Environment;
+			path = HangMan/Environment;
+			sourceTree = "<group>";
+		};
+		8240C0041E2FCC7400D0D612 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				8240C0051E2FCC7400D0D612 /* LXKeyBoardCollectionViewHandler.h */,
+				8240C0061E2FCC7400D0D612 /* LXKeyBoardCollectionViewHandler.m */,
+				8240C0071E2FCC7400D0D612 /* Model */,
+			);
+			name = Handler;
+			path = HangMan/Handler;
+			sourceTree = "<group>";
+		};
+		8240C0071E2FCC7400D0D612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8240C0081E2FCC7400D0D612 /* LXKeyModel.h */,
+				8240C0091E2FCC7400D0D612 /* LXKeyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8240C00A1E2FCC7400D0D612 /* Implement */ = {
+			isa = PBXGroup;
+			children = (
+				8240C00B1E2FCC7400D0D612 /* HangManKit.h */,
+				8240C00C1E2FCC7400D0D612 /* HangManKit.m */,
+				8240C00D1E2FCC7400D0D612 /* Network */,
+				8240C0101E2FCC7400D0D612 /* Persistence */,
+			);
+			name = Implement;
+			path = HangMan/Implement;
+			sourceTree = "<group>";
+		};
+		8240C00D1E2FCC7400D0D612 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8240C00E1E2FCC7400D0D612 /* HangManNetworkIMP.h */,
+				8240C00F1E2FCC7400D0D612 /* HangManNetworkIMP.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8240C0101E2FCC7400D0D612 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8240C0111E2FCC7400D0D612 /* HangManPersistenceIMP.h */,
+				8240C0121E2FCC7400D0D612 /* HangManPersistenceIMP.m */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		C82D5C6F402EE2441983C631 /* Frameworks */ = {
@@ -337,11 +343,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8240C01C1E2FCCC800D0D612 /* Welcome.storyboard in Resources */,
 				8240BF891E2DEADF00D0D612 /* LaunchScreen.storyboard in Resources */,
-				8240BFC41E2E1FE200D0D612 /* Welcome.storyboard in Resources */,
 				8240BF861E2DEADF00D0D612 /* Assets.xcassets in Resources */,
 				8240BFDD1E2F4F2D00D0D612 /* Hangman_game.png in Resources */,
-				8240BF841E2DEADF00D0D612 /* Main.storyboard in Resources */,
+				8240C01B1E2FCCC800D0D612 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,35 +406,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8240BFE11E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */,
-				8240BF941E2DEE7B00D0D612 /* HangManNetworkIMP.m in Sources */,
-				8240BF811E2DEADF00D0D612 /* LXMainViewController.m in Sources */,
-				8240BFB31E2E020800D0D612 /* LXStartGameModel.m in Sources */,
-				8240BFBB1E2E12E200D0D612 /* NSError+HangManError.m in Sources */,
-				8240BFB41E2E020800D0D612 /* LXWordModel.m in Sources */,
-				8240BF7E1E2DEADF00D0D612 /* AppDelegate.m in Sources */,
-				8240BFC71E2E200100D0D612 /* LXWelcomeViewController.m in Sources */,
-				8240BFC11E2E1E5400D0D612 /* LXEnvironment.m in Sources */,
-				8240BF7B1E2DEADF00D0D612 /* main.m in Sources */,
-				8240BF9F1E2DF54F00D0D612 /* HangManPersistenceIMP.m in Sources */,
-				8240BFE51E2F530500D0D612 /* LXKeyModel.m in Sources */,
-				8240BFB21E2E020800D0D612 /* LXResultModel.m in Sources */,
-				8240BFA21E2DF75F00D0D612 /* HangManKit.m in Sources */,
+				8240C01D1E2FCDC800D0D612 /* LXEnvironment.m in Sources */,
+				8240C01E1E2FCDC800D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */,
+				8240C01F1E2FCDC800D0D612 /* LXKeyModel.m in Sources */,
+				8240C0201E2FCDC800D0D612 /* HangManKit.m in Sources */,
+				8240C0211E2FCDC800D0D612 /* HangManNetworkIMP.m in Sources */,
+				8240C0221E2FCDC800D0D612 /* HangManPersistenceIMP.m in Sources */,
+				8240C0231E2FCDC800D0D612 /* LXResultModel.m in Sources */,
+				8240C0241E2FCDC800D0D612 /* LXStartGameModel.m in Sources */,
+				8240C0251E2FCDC800D0D612 /* LXWordModel.m in Sources */,
+				8240C0261E2FCDC800D0D612 /* NSError+HangManError.m in Sources */,
+				8240C0271E2FCDC800D0D612 /* LXMainViewController.m in Sources */,
+				8240C0281E2FCDC800D0D612 /* LXWelcomeViewController.m in Sources */,
+				8240C0291E2FCDC800D0D612 /* AppDelegate.m in Sources */,
+				8240C02A1E2FCDC800D0D612 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8240BF821E2DEADF00D0D612 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8240BF831E2DEADF00D0D612 /* Base */,
-			);
-			name = Main.storyboard;
-			path = HangMan;
-			sourceTree = "<group>";
-		};
 		8240BF871E2DEADF00D0D612 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
