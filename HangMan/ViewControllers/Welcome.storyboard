@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="U0V-2E-SqH">
+            <objects>
+                <viewController storyboardIdentifier="LXWelcomeViewController" id="3LC-F6-fR4" customClass="LXWelcomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iFQ-ZR-zxC"/>
+                        <viewControllerLayoutGuide type="bottom" id="c19-KT-Ntz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cPX-x3-j4u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pr-bL-1y3">
+                                <rect key="frame" x="156" y="144" width="64" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhW-Si-ARD">
+                                <rect key="frame" x="158" y="208" width="59" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAG-Me-8V9">
+                                <rect key="frame" x="110" y="513" width="154" height="36"/>
+                                <color key="backgroundColor" red="0.13634634938817747" green="0.70444118817343537" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="NdF-An-BYu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="开始游戏">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startBtnClicked:" destination="3LC-F6-fR4" eventType="touchUpInside" id="5tp-2f-MOk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71111639929673776" green="1" blue="0.65334253230795436" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YAG-Me-8V9" firstAttribute="centerX" secondItem="cPX-x3-j4u" secondAttribute="centerX" id="26n-co-pVZ"/>
+                            <constraint firstItem="1pr-bL-1y3" firstAttribute="top" secondItem="iFQ-ZR-zxC" secondAttribute="bottom" constant="80" id="3GZ-XW-FQb"/>
+                            <constraint firstItem="MhW-Si-ARD" firstAttribute="centerX" secondItem="cPX-x3-j4u" secondAttribute="centerX" id="EJe-IM-LgP"/>
+                            <constraint firstItem="1pr-bL-1y3" firstAttribute="centerX" secondItem="cPX-x3-j4u" secondAttribute="centerX" id="FMJ-T1-0y9"/>
+                            <constraint firstItem="MhW-Si-ARD" firstAttribute="top" secondItem="1pr-bL-1y3" secondAttribute="bottom" constant="30" id="Us8-Mm-1is"/>
+                            <constraint firstItem="c19-KT-Ntz" firstAttribute="top" secondItem="YAG-Me-8V9" secondAttribute="bottom" constant="118" id="u4C-qh-kud"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="AFc-2P-QTP"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="MhW-Si-ARD" id="bjl-lQ-LUx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="foT-9r-wf2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-519.20000000000005" y="-94.002998500749626"/>
+        </scene>
+    </scenes>
+</document>
