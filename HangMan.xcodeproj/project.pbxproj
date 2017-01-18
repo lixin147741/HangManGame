@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8240BF7B1E2DEADF00D0D612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7A1E2DEADF00D0D612 /* main.m */; };
+		8240BF7E1E2DEADF00D0D612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */; };
+		8240BF811E2DEADF00D0D612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF801E2DEADF00D0D612 /* ViewController.m */; };
+		8240BF841E2DEADF00D0D612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF821E2DEADF00D0D612 /* Main.storyboard */; };
+		8240BF861E2DEADF00D0D612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF851E2DEADF00D0D612 /* Assets.xcassets */; };
+		8240BF891E2DEADF00D0D612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BF871E2DEADF00D0D612 /* LaunchScreen.storyboard */; };
+		8240BF941E2DEE7B00D0D612 /* HangManNetworkIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF931E2DEE7B00D0D612 /* HangManNetworkIMP.m */; };
+		8240BF9F1E2DF54F00D0D612 /* HangManPersistenceIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BF9E1E2DF54F00D0D612 /* HangManPersistenceIMP.m */; };
+		8240BFA21E2DF75F00D0D612 /* HangManKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFA11E2DF75F00D0D612 /* HangManKit.m */; };
+		8240BFB21E2E020800D0D612 /* LXResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFAD1E2E020800D0D612 /* LXResultModel.m */; };
+		8240BFB31E2E020800D0D612 /* LXStartGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFAF1E2E020800D0D612 /* LXStartGameModel.m */; };
+		8240BFB41E2E020800D0D612 /* LXWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFB11E2E020800D0D612 /* LXWordModel.m */; };
+		8240BFBB1E2E12E200D0D612 /* NSError+HangManError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFBA1E2E12E200D0D612 /* NSError+HangManError.m */; };
+		8240BFC11E2E1E5400D0D612 /* LXEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFC01E2E1E5400D0D612 /* LXEnvironment.m */; };
+		8240BFC41E2E1FE200D0D612 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240BFC31E2E1FE200D0D612 /* Welcome.storyboard */; };
+		8240BFC71E2E200100D0D612 /* LXWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */; };
+		8240BFDD1E2F4F2D00D0D612 /* Hangman_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240BFDC1E2F4F2D00D0D612 /* Hangman_game.png */; };
+		8240BFE11E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFE01E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m */; };
+		8240BFE51E2F530500D0D612 /* LXKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240BFE41E2F530500D0D612 /* LXKeyModel.m */; };
+		B93CBBB90F2D6F1A2DA5CFC2 /* libPods-HangMan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2755CBF9A194A62D19F12C9A /* libPods-HangMan.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2755CBF9A194A62D19F12C9A /* libPods-HangMan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HangMan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8240BF761E2DEADF00D0D612 /* HangMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8240BF7A1E2DEADF00D0D612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8240BF7C1E2DEADF00D0D612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8240BF7F1E2DEADF00D0D612 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HangMan/ViewController.h; sourceTree = "<group>"; };
+		8240BF801E2DEADF00D0D612 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HangMan/ViewController.m; sourceTree = "<group>"; };
+		8240BF831E2DEADF00D0D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8240BF851E2DEADF00D0D612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8240BF881E2DEADF00D0D612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8240BF8A1E2DEAE000D0D612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8240BF911E2DED5100D0D612 /* HangManNetworkProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangManNetworkProtocol.h; sourceTree = "<group>"; };
+		8240BF921E2DEE7B00D0D612 /* HangManNetworkIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HangManNetworkIMP.h; path = HangMan/HangManNetworkIMP.h; sourceTree = "<group>"; };
+		8240BF931E2DEE7B00D0D612 /* HangManNetworkIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HangManNetworkIMP.m; path = HangMan/HangManNetworkIMP.m; sourceTree = "<group>"; };
+		8240BF9C1E2DF4D300D0D612 /* HangManPersistenceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManPersistenceProtocol.h; sourceTree = "<group>"; };
+		8240BF9D1E2DF54F00D0D612 /* HangManPersistenceIMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManPersistenceIMP.h; sourceTree = "<group>"; };
+		8240BF9E1E2DF54F00D0D612 /* HangManPersistenceIMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManPersistenceIMP.m; sourceTree = "<group>"; };
+		8240BFA01E2DF75F00D0D612 /* HangManKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangManKit.h; sourceTree = "<group>"; };
+		8240BFA11E2DF75F00D0D612 /* HangManKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangManKit.m; sourceTree = "<group>"; };
+		8240BFAC1E2E020800D0D612 /* LXResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXResultModel.h; sourceTree = "<group>"; };
+		8240BFAD1E2E020800D0D612 /* LXResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXResultModel.m; sourceTree = "<group>"; };
+		8240BFAE1E2E020800D0D612 /* LXStartGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXStartGameModel.h; sourceTree = "<group>"; };
+		8240BFAF1E2E020800D0D612 /* LXStartGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXStartGameModel.m; sourceTree = "<group>"; };
+		8240BFB01E2E020800D0D612 /* LXWordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWordModel.h; sourceTree = "<group>"; };
+		8240BFB11E2E020800D0D612 /* LXWordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWordModel.m; sourceTree = "<group>"; };
+		8240BFB91E2E12E200D0D612 /* NSError+HangManError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HangManError.h"; sourceTree = "<group>"; };
+		8240BFBA1E2E12E200D0D612 /* NSError+HangManError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HangManError.m"; sourceTree = "<group>"; };
+		8240BFBC1E2E1AC400D0D612 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		8240BFBF1E2E1E5400D0D612 /* LXEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXEnvironment.h; sourceTree = "<group>"; };
+		8240BFC01E2E1E5400D0D612 /* LXEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXEnvironment.m; sourceTree = "<group>"; };
+		8240BFC31E2E1FE200D0D612 /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		8240BFC51E2E200100D0D612 /* LXWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWelcomeViewController.h; sourceTree = "<group>"; };
+		8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWelcomeViewController.m; sourceTree = "<group>"; };
+		8240BFDC1E2F4F2D00D0D612 /* Hangman_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman_game.png; sourceTree = "<group>"; };
+		8240BFDF1E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKeyBoardCollectionViewHandler.h; sourceTree = "<group>"; };
+		8240BFE01E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKeyBoardCollectionViewHandler.m; sourceTree = "<group>"; };
+		8240BFE31E2F530500D0D612 /* LXKeyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXKeyModel.h; sourceTree = "<group>"; };
+		8240BFE41E2F530500D0D612 /* LXKeyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXKeyModel.m; sourceTree = "<group>"; };
+		9E038C83ADE27639149E0795 /* Pods-HangMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangMan/Pods-HangMan.debug.xcconfig"; sourceTree = "<group>"; };
+		CC26AFD3213C3669E0771161 /* Pods-HangMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangMan/Pods-HangMan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8240BF731E2DEADF00D0D612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93CBBB90F2D6F1A2DA5CFC2 /* libPods-HangMan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEFDAD331F8742F97681EE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E038C83ADE27639149E0795 /* Pods-HangMan.debug.xcconfig */,
+				CC26AFD3213C3669E0771161 /* Pods-HangMan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8240BF6D1E2DEADF00D0D612 = {
+			isa = PBXGroup;
+			children = (
+				8240BFDE1E2F511900D0D612 /* Handler */,
+				8240BFC21E2E1F9E00D0D612 /* ViewControllers */,
+				8240BFBE1E2E1E3B00D0D612 /* Environment */,
+				8240BFB81E2E12C500D0D612 /* Util */,
+				8240BF951E2DF0DE00D0D612 /* Model */,
+				8240BF901E2DECE700D0D612 /* Protocol */,
+				8240BF971E2DF40A00D0D612 /* Implement */,
+				8240BF781E2DEADF00D0D612 /* HangMan */,
+				8240BFDB1E2F4F2D00D0D612 /* resource */,
+				8240BF771E2DEADF00D0D612 /* Products */,
+				1DEFDAD331F8742F97681EE2 /* Pods */,
+				C82D5C6F402EE2441983C631 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8240BF771E2DEADF00D0D612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF761E2DEADF00D0D612 /* HangMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8240BF781E2DEADF00D0D612 /* HangMan */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF7C1E2DEADF00D0D612 /* AppDelegate.h */,
+				8240BF7D1E2DEADF00D0D612 /* AppDelegate.m */,
+				8240BF851E2DEADF00D0D612 /* Assets.xcassets */,
+				8240BF871E2DEADF00D0D612 /* LaunchScreen.storyboard */,
+				8240BF8A1E2DEAE000D0D612 /* Info.plist */,
+				8240BF791E2DEADF00D0D612 /* Supporting Files */,
+			);
+			path = HangMan;
+			sourceTree = "<group>";
+		};
+		8240BF791E2DEADF00D0D612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF7A1E2DEADF00D0D612 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8240BF901E2DECE700D0D612 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF991E2DF44700D0D612 /* Persistent */,
+				8240BF961E2DF3F400D0D612 /* Network */,
+			);
+			name = Protocol;
+			path = HangMan;
+			sourceTree = "<group>";
+		};
+		8240BF951E2DF0DE00D0D612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFAC1E2E020800D0D612 /* LXResultModel.h */,
+				8240BFAD1E2E020800D0D612 /* LXResultModel.m */,
+				8240BFAE1E2E020800D0D612 /* LXStartGameModel.h */,
+				8240BFAF1E2E020800D0D612 /* LXStartGameModel.m */,
+				8240BFB01E2E020800D0D612 /* LXWordModel.h */,
+				8240BFB11E2E020800D0D612 /* LXWordModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8240BF961E2DF3F400D0D612 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF911E2DED5100D0D612 /* HangManNetworkProtocol.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		8240BF971E2DF40A00D0D612 /* Implement */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF9A1E2DF45600D0D612 /* Persistent */,
+				8240BF981E2DF43900D0D612 /* Network */,
+				8240BFA01E2DF75F00D0D612 /* HangManKit.h */,
+				8240BFA11E2DF75F00D0D612 /* HangManKit.m */,
+			);
+			name = Implement;
+			sourceTree = "<group>";
+		};
+		8240BF981E2DF43900D0D612 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF921E2DEE7B00D0D612 /* HangManNetworkIMP.h */,
+				8240BF931E2DEE7B00D0D612 /* HangManNetworkIMP.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		8240BF991E2DF44700D0D612 /* Persistent */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF9C1E2DF4D300D0D612 /* HangManPersistenceProtocol.h */,
+			);
+			name = Persistent;
+			sourceTree = "<group>";
+		};
+		8240BF9A1E2DF45600D0D612 /* Persistent */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF9D1E2DF54F00D0D612 /* HangManPersistenceIMP.h */,
+				8240BF9E1E2DF54F00D0D612 /* HangManPersistenceIMP.m */,
+			);
+			name = Persistent;
+			sourceTree = "<group>";
+		};
+		8240BFB81E2E12C500D0D612 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFB91E2E12E200D0D612 /* NSError+HangManError.h */,
+				8240BFBA1E2E12E200D0D612 /* NSError+HangManError.m */,
+				8240BFBC1E2E1AC400D0D612 /* Macros.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		8240BFBE1E2E1E3B00D0D612 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFBF1E2E1E5400D0D612 /* LXEnvironment.h */,
+				8240BFC01E2E1E5400D0D612 /* LXEnvironment.m */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		8240BFC21E2E1F9E00D0D612 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8240BF7F1E2DEADF00D0D612 /* ViewController.h */,
+				8240BF801E2DEADF00D0D612 /* ViewController.m */,
+				8240BF821E2DEADF00D0D612 /* Main.storyboard */,
+				8240BFC51E2E200100D0D612 /* LXWelcomeViewController.h */,
+				8240BFC61E2E200100D0D612 /* LXWelcomeViewController.m */,
+				8240BFC31E2E1FE200D0D612 /* Welcome.storyboard */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8240BFDB1E2F4F2D00D0D612 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFDC1E2F4F2D00D0D612 /* Hangman_game.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		8240BFDE1E2F511900D0D612 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFE21E2F52F400D0D612 /* Model */,
+				8240BFDF1E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.h */,
+				8240BFE01E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		8240BFE21E2F52F400D0D612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8240BFE31E2F530500D0D612 /* LXKeyModel.h */,
+				8240BFE41E2F530500D0D612 /* LXKeyModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C82D5C6F402EE2441983C631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2755CBF9A194A62D19F12C9A /* libPods-HangMan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8240BF751E2DEADF00D0D612 /* HangMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8240BF8D1E2DEAE000D0D612 /* Build configuration list for PBXNativeTarget "HangMan" */;
+			buildPhases = (
+				ED885535CBBA7160AA915B07 /* [CP] Check Pods Manifest.lock */,
+				8240BF721E2DEADF00D0D612 /* Sources */,
+				8240BF731E2DEADF00D0D612 /* Frameworks */,
+				8240BF741E2DEADF00D0D612 /* Resources */,
+				E6F30BD549685789CAFF007D /* [CP] Embed Pods Frameworks */,
+				04309A8E18CAC501496A3045 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HangMan;
+			productName = HangMan;
+			productReference = 8240BF761E2DEADF00D0D612 /* HangMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8240BF6E1E2DEADF00D0D612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kee;
+				TargetAttributes = {
+					8240BF751E2DEADF00D0D612 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 45TB9X2TQK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8240BF711E2DEADF00D0D612 /* Build configuration list for PBXProject "HangMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8240BF6D1E2DEADF00D0D612;
+			productRefGroup = 8240BF771E2DEADF00D0D612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8240BF751E2DEADF00D0D612 /* HangMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8240BF741E2DEADF00D0D612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8240BF891E2DEADF00D0D612 /* LaunchScreen.storyboard in Resources */,
+				8240BFC41E2E1FE200D0D612 /* Welcome.storyboard in Resources */,
+				8240BF861E2DEADF00D0D612 /* Assets.xcassets in Resources */,
+				8240BFDD1E2F4F2D00D0D612 /* Hangman_game.png in Resources */,
+				8240BF841E2DEADF00D0D612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04309A8E18CAC501496A3045 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangMan/Pods-HangMan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F30BD549685789CAFF007D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangMan/Pods-HangMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED885535CBBA7160AA915B07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8240BF721E2DEADF00D0D612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8240BFE11E2F513B00D0D612 /* LXKeyBoardCollectionViewHandler.m in Sources */,
+				8240BF941E2DEE7B00D0D612 /* HangManNetworkIMP.m in Sources */,
+				8240BF811E2DEADF00D0D612 /* ViewController.m in Sources */,
+				8240BFB31E2E020800D0D612 /* LXStartGameModel.m in Sources */,
+				8240BFBB1E2E12E200D0D612 /* NSError+HangManError.m in Sources */,
+				8240BFB41E2E020800D0D612 /* LXWordModel.m in Sources */,
+				8240BF7E1E2DEADF00D0D612 /* AppDelegate.m in Sources */,
+				8240BFC71E2E200100D0D612 /* LXWelcomeViewController.m in Sources */,
+				8240BFC11E2E1E5400D0D612 /* LXEnvironment.m in Sources */,
+				8240BF7B1E2DEADF00D0D612 /* main.m in Sources */,
+				8240BF9F1E2DF54F00D0D612 /* HangManPersistenceIMP.m in Sources */,
+				8240BFE51E2F530500D0D612 /* LXKeyModel.m in Sources */,
+				8240BFB21E2E020800D0D612 /* LXResultModel.m in Sources */,
+				8240BFA21E2DF75F00D0D612 /* HangManKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8240BF821E2DEADF00D0D612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8240BF831E2DEADF00D0D612 /* Base */,
+			);
+			name = Main.storyboard;
+			path = HangMan;
+			sourceTree = "<group>";
+		};
+		8240BF871E2DEADF00D0D612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8240BF881E2DEADF00D0D612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8240BF8B1E2DEAE000D0D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8240BF8C1E2DEAE000D0D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8240BF8E1E2DEAE000D0D612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E038C83ADE27639149E0795 /* Pods-HangMan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45TB9X2TQK;
+				INFOPLIST_FILE = HangMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kee.HangMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8240BF8F1E2DEAE000D0D612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC26AFD3213C3669E0771161 /* Pods-HangMan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45TB9X2TQK;
+				INFOPLIST_FILE = HangMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kee.HangMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8240BF711E2DEADF00D0D612 /* Build configuration list for PBXProject "HangMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8240BF8B1E2DEAE000D0D612 /* Debug */,
+				8240BF8C1E2DEAE000D0D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8240BF8D1E2DEAE000D0D612 /* Build configuration list for PBXNativeTarget "HangMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8240BF8E1E2DEAE000D0D612 /* Debug */,
+				8240BF8F1E2DEAE000D0D612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8240BF6E1E2DEADF00D0D612 /* Project object */;
+}
